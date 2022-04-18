@@ -15,6 +15,7 @@ a:visited {
 
 #inp{
     margin-right: 10px;
+    min-width: 180px;
 }
 
 a:hover {
