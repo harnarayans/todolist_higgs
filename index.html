@@ -17,12 +17,12 @@
 
 <body class="container">
     <div class="rowAlign">
-        <input style="margin:10px" id="inp" type="text" class="form-control" id="usr">
-        <button type="button" style="margin:10px" onClick="addTodo()" class="btn btn-primary">Add Item</button>
+        <input id="inp" onkeypress="keyHandler(event)" type="text" class="form-control" id="usr">
+        <button type="button" onClick="addTodo()" class="btn btn-primary">Add Item</button>
     </div>
-    <div>
-        <ul class="tableWidth list-group" id="list" ></ul>
-    </div>
+    
+    <ul class="tableWidth list-group" id="list" ></ul>
+    
     <script src="script.js"></script>
 </body>
 

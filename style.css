@@ -4,12 +4,17 @@
     justify-content: center;
     flex-direction: column;
     padding:20px;
+    width: 100vh;
 }
 a:link,
 a:visited {
     color: rebeccapurple;
     font-weight: bold;
     content: "abc";
+}
+
+#inp{
+    margin-right: 10px;
 }
 
 a:hover {
@@ -19,9 +24,13 @@ a:hover {
 .rowAlign{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .tableWidth{
     min-width: 302px;
+    width: 100%;
+    margin: 10px;
+    padding-left: 10px;
 }
    

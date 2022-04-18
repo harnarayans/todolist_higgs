@@ -1,4 +1,10 @@
 var todolist=[];
+
+function keyHandler(event){
+    if(event.keyCode==13){
+        addTodo();
+    }
+}
 function addTodo(){
     var inputReference = document.getElementById("inp");
     var inputValue = inputReference.value;
