@@ -3,4 +3,25 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding:20px;
 }
+a:link,
+a:visited {
+    color: rebeccapurple;
+    font-weight: bold;
+    content: "abc";
+}
+
+a:hover {
+    color:black;
+}
+
+.rowAlign{
+    display: flex;
+    flex-direction: row;
+}
+
+.tableWidth{
+    min-width: 302px;
+}
+   

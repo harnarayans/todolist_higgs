@@ -4,6 +4,7 @@ function addTodo(){
     var inputValue = inputReference.value;
     todolist.push(inputValue);
     showList();
+    inputReference.value="";
 }
 
 function showList(){
@@ -12,6 +13,7 @@ function showList(){
     todolist.map((s)=>{
         var item = document.createElement("li");
         item.innerHTML = s;
+        item.classList.add("list-group-item");
         listRef.appendChild(item); 
     })
 }
