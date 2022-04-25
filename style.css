@@ -34,4 +34,10 @@ a:hover {
     margin: 10px;
     padding-left: 10px;
 }
+
+.lineitem{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
    

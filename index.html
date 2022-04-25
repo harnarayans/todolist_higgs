@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
@@ -20,9 +21,10 @@
         <input id="inp" onkeypress="keyHandler(event)" type="text" class="form-control" id="usr">
         <button type="button" onClick="addTodo()" class="btn btn-primary">Add Item</button>
     </div>
-    
+    <div class="rowAlign input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search" oninput="handleSearch(event)">
+      </div>   
     <ul class="tableWidth list-group" id="list" ></ul>
-    
     <script src="script.js"></script>
 </body>
 
